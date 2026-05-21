@@ -1,0 +1,13 @@
+.venv/
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+
+data/*.csv
+
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
