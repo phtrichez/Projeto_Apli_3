@@ -1,11 +1,3 @@
-# Bibliotecas utilizadas na prova de conceito do sistema de recomendação
-
 pandas
 numpy
 scikit-learn
-scipy
-matplotlib
-seaborn
-jupyter
-notebook
-ipykernel
