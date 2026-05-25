@@ -42,6 +42,7 @@ plt.close()
 # Tempo de preparo
 receitas_validas = receitas[receitas['minutes'].fillna(0) > 0].copy()
 limite = receitas_validas['minutes'].quantile(0.99)
+
 plt.figure(figsize=(7,4))
 receitas_validas['minutes'].clip(upper=limite).hist(bins=40)
 plt.title('Distribuicao do tempo de preparo tratado')
